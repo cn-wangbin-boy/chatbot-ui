@@ -157,22 +157,26 @@ export const Chat: FC<Props> = memo(
         {!(apiKey || serverSideApiKeyIsSet) ? (
           <div className="mx-auto flex h-full w-[300px] flex-col justify-center space-y-6 sm:w-[600px]">
             <div className="text-center text-4xl font-bold text-black dark:text-white">
-              Welcome to Chatbot UI
+              欢迎使用指尖创作
             </div>
             <div className="text-center text-lg text-black dark:text-white">
-              <div className="mb-8">{`Chatbot UI is an open source clone of OpenAI's ChatGPT UI.`}</div>
+              <div className="mb-8">基于人工智能技术的聊天机器人，可以进行自然语言交互，并通过生成式预训练模型帮助用户进行文本创作。</div>
               <div className="mb-2 font-bold">
-                Important: Chatbot UI is 100% unaffiliated with OpenAI.
+                其强大的自然语言生成能力，可以为用户提供高质量的文本创作帮助。
               </div>
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
               <div className="mb-2">
-                Chatbot UI allows you to plug in your API key to use this UI
-                with their API.
+                可以快速生成高质量的文本内容，减少用户的创作时间和精力。
               </div>
               <div className="mb-2">
-                It is <span className="italic">only</span> used to communicate
-                with their API.
+                基于大规模的预训练模型，可以生成更加准确、流畅的文本内容，提升创作质量。
+              </div>
+              <div className="mb-2">
+               可以生成各种类型的文本内容，帮助用户扩展创作领域，包括文章、诗歌、小说等。
+              </div>
+              <div className="mb-2">
+               通过与你对话方式交互，提供文本创作灵感的启示，帮助用户更好地展开创作思路。
               </div>
               <div className="mb-2">
                 {t(
